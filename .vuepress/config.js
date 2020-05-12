@@ -1,54 +1,44 @@
-const base = process.env.GH ? '/vuepress/' : '/'
+const base = process.env.GH ? "/vuepress/" : "/";
 
 module.exports = {
-  title: 'DEVNAGRI',
-  description: 'We Celebrate INDIAN Languages',
-  dest: 'vuepress',
+  title: "DEVNAGRI",
+  description: "We Celebrate INDIAN Languages",
+  dest: "vuepress",
   base,
-  head: [
-    ['link', { rel: 'icon', href: `/logo.png` }]
-  ],
+  head: [["link", { rel: "icon", href: `/logo.png` }]],
   serviceWorker: true,
   themeConfig: {
-    repo: 'FourtekIT/devnagri-docs',
+    repo: "FourtekIT/devnagri-docs",
     editLinks: true,
-    logo: '/logo-dark.png',
-    docsDir: 'docs',
+    logo: "/logo-dark.png",
     nav: [
       {
-        text: 'Home',
-        link: 'http://www.devnagri.com',
+        text: "Home",
+        link: "http://www.devnagri.com",
       },
       {
-        text: 'Guide',
-        link: '/guide/user.html',
+        text: "Guide",
+        link: "/guide/Client_Guide.html",
       },
     ],
     sidebar: {
-      '/guide/': [
+      "/guide/": [
         {
-          title: 'User Guide',
+          title: "User Guide",
           collapsable: false,
-          children: [
-            'user',
-            'glossary',
-          ]
+          children: ["Client_Guide", "Glossary"],
         },
         {
-          title: 'Translator Guide',
+          title: "Translator Guide",
           collapsable: false,
-          children: [
-            'translator'
-          ]
+          children: ["Translator"],
         },
         {
-          title: 'Developer Guide',
+          title: "Developer Guide",
           collapsable: false,
-          children: [
-            'api'
-          ]
-        }
-      ]
-    }
-  }
-}
+          children: ["Api"],
+        },
+      ],
+    },
+  },
+};

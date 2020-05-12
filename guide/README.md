@@ -32,7 +32,7 @@ The file upload process is the same for all Localization formats concerning Web 
 
 ### A. Upload a String or XML file for Translation.
 
-Our System will automatically  extract the text that needs to be translated from your files (i.e String .xml).
+Our System will automatically extract the text that needs to be translated from your files (i.e String .xml).
 
 ### B. Update the file
 
@@ -62,7 +62,7 @@ There are three plans in an Order Selection:
 
 1. **Free** - In here, you will be allowed to do the translation on your own or add your own translation.
 
-2. **Automated Translation(AT)** -  This will give you an option of choosing suggestions from Google, Yandex and Bing.
+2. **Automated Translation(AT)** - This will give you an option of choosing suggestions from Google, Yandex and Bing.
 
 3. **Premium** - In the premium version, we will provide a domain expert or translator along with a reliable proofreader.
 
