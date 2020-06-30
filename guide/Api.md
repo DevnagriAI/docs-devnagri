@@ -62,7 +62,7 @@ Example:
 
 Get all languages that we are using
 
-> `POST: https://dev.devnagri.co.in/api/all-languages`
+> `POST: https://app.devnagri.com/api/all-languages`
 
 Response
 
