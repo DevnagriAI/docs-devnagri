@@ -7,7 +7,7 @@
     <meta name="generator" content="VuePress 1.5.0">
     <link rel="icon" href="/logo.png">
     <meta name="description" content="We Celebrate INDIAN Languages">
-    <link rel="preload" href="/assets/css/0.styles.298a343f.css" as="style"><link rel="preload" href="/assets/js/app.50eab1a7.js" as="script"><link rel="preload" href="/assets/js/4.4cf2f438.js" as="script"><link rel="preload" href="/assets/js/13.52027862.js" as="script"><link rel="prefetch" href="/assets/js/10.43e5852b.js"><link rel="prefetch" href="/assets/js/11.c1b4f960.js"><link rel="prefetch" href="/assets/js/12.e80a14ea.js"><link rel="prefetch" href="/assets/js/2.b94439d3.js"><link rel="prefetch" href="/assets/js/3.b01511e9.js"><link rel="prefetch" href="/assets/js/5.8a871e11.js"><link rel="prefetch" href="/assets/js/6.01fb2e53.js"><link rel="prefetch" href="/assets/js/7.f1d0555a.js"><link rel="prefetch" href="/assets/js/8.f56baad5.js"><link rel="prefetch" href="/assets/js/9.f8842fdf.js">
+    <link rel="preload" href="/assets/css/0.styles.298a343f.css" as="style"><link rel="preload" href="/assets/js/app.7d06a290.js" as="script"><link rel="preload" href="/assets/js/4.4cf2f438.js" as="script"><link rel="preload" href="/assets/js/13.818aaf4d.js" as="script"><link rel="prefetch" href="/assets/js/10.43e5852b.js"><link rel="prefetch" href="/assets/js/11.c1b4f960.js"><link rel="prefetch" href="/assets/js/12.4c0afaca.js"><link rel="prefetch" href="/assets/js/2.546ddccf.js"><link rel="prefetch" href="/assets/js/3.5a3cd8be.js"><link rel="prefetch" href="/assets/js/5.9fe18418.js"><link rel="prefetch" href="/assets/js/6.6f91868c.js"><link rel="prefetch" href="/assets/js/7.1a6aedca.js"><link rel="prefetch" href="/assets/js/8.20285979.js"><link rel="prefetch" href="/assets/js/9.0de52a79.js">
     <link rel="stylesheet" href="/assets/css/0.styles.298a343f.css">
   </head>
   <body>
@@ -23,244 +23,231 @@
   Guide
 </a></div> <a href="https://github.com/FourtekIT/devnagri-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
     GitHub
-    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>User Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/Client_Guide.html" class="sidebar-link">Devnagri</a></li><li><a href="/guide/Glossary.html" class="sidebar-link">Glossary</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Translator Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/Translator.html" class="sidebar-link">Translators</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Developer Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/Api.html" class="active sidebar-link">Devnagri API's</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/Api.html#login-api" class="sidebar-link">Login API</a></li><li class="sidebar-sub-header"><a href="/guide/Api.html#generate-api-token" class="sidebar-link">Generate Api Token</a></li><li class="sidebar-sub-header"><a href="/guide/Api.html#get-all-languages" class="sidebar-link">Get All Languages</a></li><li class="sidebar-sub-header"><a href="/guide/Api.html#get-all-tags" class="sidebar-link">Get All Tags</a></li><li class="sidebar-sub-header"><a href="/guide/Api.html#project-related-api-s" class="sidebar-link">Project related API's</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="devnagri-api-s"><a href="#devnagri-api-s" class="header-anchor">#</a> Devnagri API's</h1> <h2 id="login-api"><a href="#login-api" class="header-anchor">#</a> Login API</h2> <p>This Api enables client to login</p> <blockquote><p><code>POST : http://dev.devnagri.co.in/api/login</code></p></blockquote> <h3 id="request"><a href="#request" class="header-anchor">#</a> Request</h3> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
-    email<span class="token operator">:</span> 'test.client@devnagri.com'<span class="token punctuation">,</span>
-    password<span class="token operator">:</span> '****'
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>User Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/Client_Guide.html" class="sidebar-link">Devnagri</a></li><li><a href="/guide/Glossary.html" class="sidebar-link">Glossary</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Translator Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/Translator.html" class="sidebar-link">Translators</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Developer Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/Api.html" class="active sidebar-link">Devnagri API's</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/Api.html#login-api" class="sidebar-link">Login API</a></li><li class="sidebar-sub-header"><a href="/guide/Api.html#generate-api-token" class="sidebar-link">Generate Api Token</a></li><li class="sidebar-sub-header"><a href="/guide/Api.html#get-all-languages" class="sidebar-link">Get All Languages</a></li><li class="sidebar-sub-header"><a href="/guide/Api.html#get-all-tags" class="sidebar-link">Get All Tags</a></li><li class="sidebar-sub-header"><a href="/guide/Api.html#order-related-api-s" class="sidebar-link">order related API's</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="devnagri-api-s"><a href="#devnagri-api-s" class="header-anchor">#</a> Devnagri API's</h1> <h2 id="login-api"><a href="#login-api" class="header-anchor">#</a> Login API</h2> <p>This Api enables client to login</p> <blockquote><p><code>POST : https://app.devnagri.com/api/login</code></p></blockquote> <h3 id="request"><a href="#request" class="header-anchor">#</a> Request</h3> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;test.client@devnagri.com&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;password&quot;</span><span class="token operator">:</span> <span class="token string">&quot;****&quot;</span>
 <span class="token punctuation">}</span>
 </code></pre></div><h3 id="response"><a href="#response" class="header-anchor">#</a> Response</h3> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
-    token<span class="token operator">:</span> 'asdiasdoiasdubdebdsbdaysbduaysbduaysbd'
+  <span class="token property">&quot;token&quot;</span><span class="token operator">:</span> <span class="token string">&quot;asdiasdoiasdubdebdsbdaysbduaysbduaysbd&quot;</span>
 <span class="token punctuation">}</span>
-</code></pre></div><h2 id="generate-api-token"><a href="#generate-api-token" class="header-anchor">#</a> Generate Api Token</h2> <blockquote><p><code>POST http://dev.devnagri.co.in/api/key/validations</code></p></blockquote> <h3 id="request-2"><a href="#request-2" class="header-anchor">#</a> Request</h3> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
-    client_id  <span class="token operator">:</span> 'id-of-client'<span class="token punctuation">,</span>
-    client_secret<span class="token operator">:</span> 'client-secret'<span class="token punctuation">,</span>
-    project_key<span class="token operator">:</span> 'project-key'
+</code></pre></div><h2 id="generate-api-token"><a href="#generate-api-token" class="header-anchor">#</a> Generate Api Token</h2> <blockquote><p><code>POST https://app.devnagri.com/api/key/validations</code></p></blockquote> <h3 id="request-2"><a href="#request-2" class="header-anchor">#</a> Request</h3> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;client_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;id-of-client&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;client_secret&quot;</span><span class="token operator">:</span> <span class="token string">&quot;client-secret&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;order_key&quot;</span><span class="token operator">:</span> <span class="token string">&quot;order-key&quot;</span>
 <span class="token punctuation">}</span>
-</code></pre></div><h3 id="response-2"><a href="#response-2" class="header-anchor">#</a> Response</h3> <div class="language-json extra-class"><pre class="language-json"><code>    <span class="token punctuation">{</span>
-        token <span class="token operator">:</span> 'Your-token'
-    <span class="token punctuation">}</span>
+</code></pre></div><h3 id="response-2"><a href="#response-2" class="header-anchor">#</a> Response</h3> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;token&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Your-token&quot;</span>
+<span class="token punctuation">}</span>
 </code></pre></div><hr> <p>Put this token in all headers while sending the request to devnagri.</p> <p>Example:</p> <div class="language-json extra-class"><pre class="language-json"><code>    Accept<span class="token operator">:</span> 'Application/json'
     Authorization <span class="token operator">:</span> 'bearer your-token-here'
-</code></pre></div><hr> <h2 id="get-all-languages"><a href="#get-all-languages" class="header-anchor">#</a> Get All Languages</h2> <p>Get all languages that we are using</p> <blockquote><p><code>POST: https://dev.devnagri.co.in/api/all-languages</code></p></blockquote> <p>Response</p> <div class="language-json extra-class"><pre class="language-json"><code>
-<span class="token punctuation">[</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Hindi - हिंदी&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;hi&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Punjabi - ਪੰਜਾਬੀ&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;pa&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">2</span>
-    <span class="token punctuation">}</span>
+</code></pre></div><hr> <h2 id="get-all-languages"><a href="#get-all-languages" class="header-anchor">#</a> Get All Languages</h2> <p>Get all languages that we are using</p> <blockquote><p><code>POST: https://dev.devnagri.co.in/api/all-languages</code></p></blockquote> <p>Response</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Hindi - हिंदी&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;hi&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Punjabi - ਪੰਜਾਬੀ&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;pa&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">2</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">]</span>
-</code></pre></div><hr> <h2 id="get-all-tags"><a href="#get-all-tags" class="header-anchor">#</a> Get All Tags</h2> <p>This api provides all tags that is being used in devnagri.</p> <blockquote><p><code>POST: http://dev.devnagri.co.in/api/tags</code></p></blockquote> <p>Response</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Android App&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Android App&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;project_type&quot;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Website&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Website&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;project_type&quot;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-   <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">36</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Not Specified&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;not-specified&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;target_audience&quot;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">37</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Children (&lt;13 yrs)&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;children-13-yrs&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;target_audience&quot;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">41</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Seniors (60+ yrs)&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;seniors-60-yrs&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;target_audience&quot;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">42</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Not Specified&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;not-specified&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;level_of_politeness&quot;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Third Person - Plural (they)&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;third-person-plural-they&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;level_of_politeness&quot;</span>
-    <span class="token punctuation">}</span>
+</code></pre></div><hr> <h2 id="get-all-tags"><a href="#get-all-tags" class="header-anchor">#</a> Get All Tags</h2> <p>This api provides all tags that is being used in devnagri.</p> <blockquote><p><code>POST: https://app.devnagri.com/api/tags</code></p></blockquote> <p>Response</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Android App&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Android App&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;order_type&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Website&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Website&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;order_type&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">36</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Not Specified&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;not-specified&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;target_audience&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">37</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Children (&lt;13 yrs)&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;children-13-yrs&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;target_audience&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">41</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Seniors (60+ yrs)&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;seniors-60-yrs&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;target_audience&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">42</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Not Specified&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;not-specified&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;level_of_politeness&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Third Person - Plural (they)&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;slug&quot;</span><span class="token operator">:</span> <span class="token string">&quot;third-person-plural-they&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;group&quot;</span><span class="token operator">:</span> <span class="token string">&quot;level_of_politeness&quot;</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">]</span>
-
-</code></pre></div><hr> <h2 id="project-related-api-s"><a href="#project-related-api-s" class="header-anchor">#</a> Project related API's</h2> <h3 id="get-available-languages-in-project"><a href="#get-available-languages-in-project" class="header-anchor">#</a> Get Available languages in project</h3> <p>Get Available languages in project.</p> <p>Request:</p> <blockquote><p><code>POST: http://dev.devnagri.co.in/api/projects/{project_id}/available-languages</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code>
-<span class="token punctuation">[</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;gu&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Gujarati - ગુજરાતી&quot;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;kn&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Kannada - ಕನ್ನಡ&quot;</span>
-    <span class="token punctuation">}</span>
+</code></pre></div><hr> <h2 id="order-related-api-s"><a href="#order-related-api-s" class="header-anchor">#</a> order related API's</h2> <h3 id="get-available-languages-in-order"><a href="#get-available-languages-in-order" class="header-anchor">#</a> Get Available languages in order</h3> <p>Get Available languages in order.</p> <p>Request:</p> <blockquote><p><code>POST: https://app.devnagri.com/api/orders/{order_id}/available-languages</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;gu&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Gujarati - ગુજરાતી&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;kn&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Kannada - ಕನ್ನಡ&quot;</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">]</span>
-
-</code></pre></div><hr> <h3 id="get-project-status"><a href="#get-project-status" class="header-anchor">#</a> Get Project Status</h3> <p>Get Status of project.</p> <p>Request:</p> <blockquote><p><code>POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-status</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
-    <span class="token property">&quot;totalWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;pendingWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;translatedWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;reviewedWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;reviewedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;translatedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;pendingWordsProgress&quot;</span><span class="token operator">:</span> <span class="token number">0</span>
+</code></pre></div><hr> <h3 id="get-order-status"><a href="#get-order-status" class="header-anchor">#</a> Get order Status</h3> <p>Get Status of order.</p> <p>Request:</p> <blockquote><p><code>POST: https://app.devnagri.com/api/orders/{order_id}/order-status</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;totalWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;pendingWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;translatedWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;reviewedWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;reviewedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;translatedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;pendingWordsProgress&quot;</span><span class="token operator">:</span> <span class="token number">0</span>
 <span class="token punctuation">}</span>
-</code></pre></div><hr> <h3 id="get-orders-in-project"><a href="#get-orders-in-project" class="header-anchor">#</a> Get orders in project</h3> <p>List all the orders in project</p> <p>Request:</p> <blockquote><p><code>POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-orders</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
-    <span class="token property">&quot;orders&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-        <span class="token punctuation">{</span>
-            <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;fileCount&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;languages&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-                <span class="token string">&quot;Hindi - हिंदी&quot;</span><span class="token punctuation">,</span>
-                <span class="token string">&quot;Punjabi - ਪੰਜਾਬੀ&quot;</span>
-            <span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;proofreading&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vLjpPD16&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;deadline&quot;</span><span class="token operator">:</span> <span class="token string">&quot;5 hours from now&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token string">&quot;unassigned&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;created_at&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-                <span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2018-07-02 17:32:36.000000&quot;</span><span class="token punctuation">,</span>
-                <span class="token property">&quot;timezone_type&quot;</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
-                <span class="token property">&quot;timezone&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Asia/Kolkata&quot;</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;totalWords&quot;</span><span class="token operator">:</span> <span class="token number">24</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;pendingWords&quot;</span><span class="token operator">:</span> <span class="token number">24</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;translatedWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;reviewedWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;reviewedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;translatedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;pendingWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;100.00&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;updated&quot;</span><span class="token operator">:</span> <span class="token string">&quot;3 minutes ago&quot;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;automatedOrders&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-        <span class="token punctuation">{</span>
-            <span class="token property">&quot;fileCount&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;languages&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-                <span class="token string">&quot;Hindi - हिंदी&quot;</span><span class="token punctuation">,</span>
-                <span class="token string">&quot;Punjabi - ਪੰਜਾਬੀ&quot;</span>
-            <span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;DmANGVa&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token string">&quot;unassigned&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;created_at&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-                <span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2018-07-02 17:33:11.000000&quot;</span><span class="token punctuation">,</span>
-                <span class="token property">&quot;timezone_type&quot;</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
-                <span class="token property">&quot;timezone&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Asia/Kolkata&quot;</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;updated&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2 minutes ago&quot;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">]</span>
-<span class="token punctuation">}</span>
-</code></pre></div><h3 id="get-all-languages-in-project"><a href="#get-all-languages-in-project" class="header-anchor">#</a> Get all languages in project</h3> <p>Request:</p> <blockquote><p><code>POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-languages</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span>
+</code></pre></div><hr> <h3 id="get-orders-in-order"><a href="#get-orders-in-order" class="header-anchor">#</a> Get orders in order</h3> <p>List all the orders in order</p> <p>Request:</p> <blockquote><p><code>POST: https://app.devnagri.com/api/orders/{order_id}/order-orders</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;orders&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Hindi - हिंदी&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;hi&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;translatedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;reviewedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;totalWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;pendingWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;reviewedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;translatedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;pendingWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;100.00&quot;</span><span class="token punctuation">,</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Punjabi - ਪੰਜਾਬੀ&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;pa&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;translatedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;reviewedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;totalWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;pendingWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;reviewedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;translatedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;pendingWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;100.00&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;fileCount&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;languages&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;Hindi - हिंदी&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Punjabi - ਪੰਜਾਬੀ&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;proofreading&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vLjpPD16&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;deadline&quot;</span><span class="token operator">:</span> <span class="token string">&quot;5 hours from now&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token string">&quot;unassigned&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;created_at&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2018-07-02 17:32:36.000000&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;timezone_type&quot;</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;timezone&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Asia/Kolkata&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;totalWords&quot;</span><span class="token operator">:</span> <span class="token number">24</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;pendingWords&quot;</span><span class="token operator">:</span> <span class="token number">24</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;translatedWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;reviewedWords&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;reviewedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;translatedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;pendingWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;100.00&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;updated&quot;</span><span class="token operator">:</span> <span class="token string">&quot;3 minutes ago&quot;</span>
     <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;automatedOrders&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">&quot;fileCount&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;languages&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;Hindi - हिंदी&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;Punjabi - ਪੰਜਾਬੀ&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;DmANGVa&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token string">&quot;unassigned&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;created_at&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2018-07-02 17:33:11.000000&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;timezone_type&quot;</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;timezone&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Asia/Kolkata&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;updated&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2 minutes ago&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="get-all-languages-in-an-order"><a href="#get-all-languages-in-an-order" class="header-anchor">#</a> Get all languages in an Order</h3> <p>Request:</p> <blockquote><p><code>POST: https://app.devnagri.com/api/orders/{order_id}/order-languages</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Hindi - हिंदी&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;hi&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;translatedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;reviewedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;totalWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;pendingWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;reviewedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;translatedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;pendingWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;100.00&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Punjabi - ਪੰਜਾਬੀ&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;pa&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;translatedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;reviewedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;totalWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;pendingWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;reviewedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;translatedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;pendingWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;100.00&quot;</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">]</span>
-
-</code></pre></div><h3 id="add-new-language-in-project"><a href="#add-new-language-in-project" class="header-anchor">#</a> Add new language in project</h3> <p>Request: Url</p> <blockquote><p><code>POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-add-language</code></p></blockquote> <p>Parameters:</p> <div class="language- extra-class"><pre class="language-text"><code>json
+</code></pre></div><h3 id="add-new-language-in-order"><a href="#add-new-language-in-order" class="header-anchor">#</a> Add new language in order</h3> <p>Request: Url</p> <blockquote><p><code>POST: https://app.devnagri.com/api/orders/{order_id}/order-add-language</code></p></blockquote> <p>Parameters:</p> <div class="language- extra-class"><pre class="language-text"><code>json
 {
     languages : 'id-of-language'
 }
 </code></pre></div><p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
-    status <span class="token operator">:</span> <span class="token number">200</span>
+  <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token number">200</span>
 <span class="token punctuation">}</span>
-
-</code></pre></div><h3 id="to-get-all-glossaries-in-project"><a href="#to-get-all-glossaries-in-project" class="header-anchor">#</a> To get All Glossaries in project</h3> <p>Request:</p> <blockquote><p><code>POST: http://dev.devnagri.co.in/api/projects/{project_id}/project-glossary</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span>
-    <span class="token punctuation">{</span>
-        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;term&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Kilometers&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;project_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;description&quot;</span><span class="token operator">:</span> <span class="token string">&quot;a&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;translatable&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;created_by&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;created_at&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2018-07-02 17:54:40&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;updated_at&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2018-07-02 17:54:40&quot;</span><span class="token punctuation">,</span>
-        <span class="token property">&quot;deleted_at&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span>
-    <span class="token punctuation">}</span>
+</code></pre></div><h3 id="to-get-all-glossaries-in-order"><a href="#to-get-all-glossaries-in-order" class="header-anchor">#</a> To get All Glossaries in order</h3> <p>Request:</p> <blockquote><p><code>POST: https://app.devnagri.com/api/orders/{order_id}/order-glossary</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;term&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Kilometers&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;order_id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;description&quot;</span><span class="token operator">:</span> <span class="token string">&quot;a&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;translatable&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;created_by&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;created_at&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2018-07-02 17:54:40&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;updated_at&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2018-07-02 17:54:40&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;deleted_at&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+  <span class="token punctuation">}</span>
 <span class="token punctuation">]</span>
-</code></pre></div><h3 id="to-get-all-files-in-project"><a href="#to-get-all-files-in-project" class="header-anchor">#</a> To get all files in project</h3> <p>Request:</p> <blockquote><p><code>POST: http://dev.devnagri.co.in/api/projects/{project_id}/order-files</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
-    <span class="token property">&quot;current_page&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-        <span class="token punctuation">{</span>
-            <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;project_id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;bfd2d1b2-7def-11e8-9d97-0242ac170006&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cipher.xml&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;location&quot;</span><span class="token operator">:</span> <span class="token string">&quot;projects/ad817108-7def-11e8-ba3a-0242ac170006/bfd2b59c-7def-11e8-9d54-0242ac170006.xml&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;xml&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;format&quot;</span><span class="token operator">:</span> <span class="token string">&quot;xml&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;meta_information&quot;</span><span class="token operator">:</span> <span class="token string">&quot;{\&quot;original_location\&quot;:null}&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;deleted_at&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;created_at&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2018-07-02 17:32:10&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;previous_id&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;deletable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;totalWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;translatedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;reviewedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;pendingWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;reviewedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;translatedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;pendingWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;100.00&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;orderType&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Hybrid&quot;</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;fileInOrders&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-            <span class="token property">&quot;statusText&quot;</span><span class="token operator">:</span> <span class="token string">&quot;available&quot;</span><span class="token punctuation">,</span>
-            <span class="token punctuation">}</span>
-    <span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;first_page_url&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/?page=1&quot;</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;from&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;last_page&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;last_page_url&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/?page=1&quot;</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;next_page_url&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;path&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;per_page&quot;</span><span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;prev_page_url&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;to&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-    <span class="token property">&quot;total&quot;</span><span class="token operator">:</span> <span class="token number">1</span>
+</code></pre></div><h3 id="to-get-all-files-in-order"><a href="#to-get-all-files-in-order" class="header-anchor">#</a> To get all files in order</h3> <p>Request:</p> <blockquote><p><code>POST: https://app.devnagri.com/api/orders/{order_id}/order-files</code></p></blockquote> <p>Response:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;current_page&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;order_id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token string">&quot;bfd2d1b2-7def-11e8-9d97-0242ac170006&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cipher.xml&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;location&quot;</span><span class="token operator">:</span> <span class="token string">&quot;orders/ad817108-7def-11e8-ba3a-0242ac170006/bfd2b59c-7def-11e8-9d54-0242ac170006.xml&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;xml&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;format&quot;</span><span class="token operator">:</span> <span class="token string">&quot;xml&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;meta_information&quot;</span><span class="token operator">:</span> <span class="token string">&quot;{\&quot;original_location\&quot;:null}&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;deleted_at&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;created_at&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2018-07-02 17:32:10&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;previous_id&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;deletable&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;totalWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;translatedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;reviewedWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;pendingWordsCount&quot;</span><span class="token operator">:</span> <span class="token number">31</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;reviewedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;translatedWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;pendingWordsProgress&quot;</span><span class="token operator">:</span> <span class="token string">&quot;100.00&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;orderType&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Hybrid&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;fileInOrders&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;statusText&quot;</span><span class="token operator">:</span> <span class="token string">&quot;available&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;first_page_url&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/?page=1&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;from&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;last_page&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;last_page_url&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/?page=1&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;next_page_url&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;path&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;per_page&quot;</span><span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;prev_page_url&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;to&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;total&quot;</span><span class="token operator">:</span> <span class="token number">1</span>
 <span class="token punctuation">}</span>
-
 </code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/FourtekIT/devnagri-docs/edit/master/guide/Api.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
       ←
       <a href="/guide/Translator.html" class="prev">
         Translators
       </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/assets/js/app.50eab1a7.js" defer></script><script src="/assets/js/4.4cf2f438.js" defer></script><script src="/assets/js/13.52027862.js" defer></script>
+    <script src="/assets/js/app.7d06a290.js" defer></script><script src="/assets/js/4.4cf2f438.js" defer></script><script src="/assets/js/13.818aaf4d.js" defer></script>
   </body>
 </html>
